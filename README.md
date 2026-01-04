@@ -1,73 +1,79 @@
-# Welcome to your JSON Explorer project
+# JSON Validator & Explorer
 
-## Project info
+A powerful, 100% client-side JSON tool aimed at developers who need to validate, format, and explore complex JSON data. Built with React 19 and Vite 7.
 
+![JSON Explorer Preview](public/screenshot.png) 
+*(Note: Replace with actual screenshot if available)*
 
+## ✨ Features
 
-## How can I edit this code?
+- **Real-time Validation**: Instant feedback on JSON syntax errors with line highlighting.
+- **Interactive Tree View**: Explore deep JSON structures with a collapsible/expandable tree visualization.
+- **Formatting tools**:
+  - **Prettify**: Format JSON with standard indentation.
+  - **Minify**: Compress JSON to remove whitespace.
+- **Flexible View Modes**:
+  - **Editor Mode**: Focus on writing/pasting code.
+  - **Tree Mode**: Focus on exploring the structure.
+  - **Split Mode**: See both editor and tree side-by-side.
+- **Privacy First**: All processing happens in your browser. No data is sent to any server.
+- **Utilities**:
+  - Copy to clipboard
+  - Download as `.json` file
+  - Clear workspace
+- **Theming**: Dark and Light mode support.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
+- **Framework**: [React](https://react.dev/) v19.2.2
+- **Build Tool**: [Vite](https://vitejs.dev/) v7.3.0
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Notifications**: [Sonner](https://sonner.emilkowal.ski/)
 
+## 🚀 Getting Started
 
+### Prerequisites
 
+- Node.js (Latest LTS recommended)
+- npm, yarn, or bun
 
+### Installation
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HariKrishna-9885699666/json-explorer.git
+   cd json-explorer
+   ```
 
-**Use your preferred IDE**
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+   *Note: If you encounter peer dependency warnings, `npm install` has been configured with overrides in `package.json` to handle React 19 compatibility.*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in your deployed app.
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-Follow these steps:
+## 🤝 Contributing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📄 License
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-
-
-
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-
+This project is licensed under the MIT License - see the LICENSE file for details.
