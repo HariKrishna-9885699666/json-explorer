@@ -2,9 +2,6 @@
 
 A powerful, 100% client-side JSON tool aimed at developers who need to validate, format, and explore complex JSON data. Built with React 19 and Vite 7.
 
-![JSON Explorer Preview](public/screenshot.png) 
-*(Note: Replace with actual screenshot if available)*
-
 ## ✨ Features
 
 - **Real-time Validation**: Instant feedback on JSON syntax errors with line highlighting.
