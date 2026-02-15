@@ -23,7 +23,7 @@ const profileData = {
   github: "HariKrishna-9885699666",
   linkedin: "anemharikrishna",
   blog: "Hashnode",
-  portfolio: "harikrishna.netlify.app"
+  portfolio: "harikrishna.is-a-good.dev"
 };
 
 const socialLinks = [
